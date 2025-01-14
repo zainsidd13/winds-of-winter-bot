@@ -3,7 +3,7 @@ dotenv.config();
 
 export const fetchArticles = async () => {
     try {
-        var url = 'https://newsapi.org/v2/everything?' +
+        var url = 'https://newsapi.org/v2/top-headlines?' +
                     'q=(winds of winter) AND book AND george AND martin' +
                     '&apiKey=' +
                     process.env.API_KEY;
